@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 10, 2022 at 10:55 PM
+-- Generation Time: Jan 11, 2022 at 03:35 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -92,7 +92,7 @@ CREATE TABLE `intern` (
 --
 
 INSERT INTO `intern` (`id`, `nama`, `umur`, `jenkel`, `email`, `alamat`, `telpon`, `gambar`, `performa`, `project`) VALUES
-(1, 'Denize Cezera', '20', 'L', 'Denize@Cezera.com', 'Jl. Bunga Bahagia ', '080120220401', 'https://i.ibb.co/t3snVGM/user.png', 'Cukup', 'Dental Plus'),
+(1, 'Denize Chezk', '29', 'L', 'Denize@Cezera.com', 'Jl. Bunga Bahagia ', '080120220401', 'https://i.ibb.co/t3snVGM/user.png', 'Buruk', 'Dental Plus'),
 (2, 'Marin Luca', '21', 'P', 'Marin@Luca.com', 'AEOn', '081471261234', 'https://i.ibb.co/t3snVGM/user.png', 'Baik', '-'),
 (3, 'Simon Sebastian', '26', 'L', 'Simon@S.com', 'visby', '081481371332', 'https://i.ibb.co/t3snVGM/user.png', 'Buruk', '-'),
 (4, 'Anton Dominika', '27', 'L', 'Anton@Do.com', 'finland', '08462551535', 'https://i.ibb.co/t3snVGM/user.png', 'Cukup', 'Opera V18'),
@@ -118,7 +118,7 @@ CREATE TABLE `project` (
 --
 
 INSERT INTO `project` (`id`, `namaproject`, `pic`, `startdate`, `enddate`) VALUES
-(1, 'Dental Plus', 'Denize Cezera', '2022-01-01', '29/5/2031'),
+(1, 'Dental +', 'Denize Cezera', '2022-01-01', '10/1/2022'),
 (8, 'vivo', 'Vivi Neilos', '20/7/2021', '-'),
 (13, 'Opera V19', 'Anton Dominika', '15/4/2025', '-'),
 (14, 'mozilla', 'Daniil Benatrix', '16/8/2027', '-');
