@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/drawable/border.xml" value="0.15" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/drawable/gradbutton.xml" value="0.23125" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/drawable/gradwallpaper.xml" value="0.2" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/drawable/ic_people_alt.xml" value="0.2755208333333333" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/drawable/ic_person_add_alt.xml" value="0.2755208333333333" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout-v23/activity_project_list.xml" value="0.15520833333333334" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_add_intern.xml" value="0.264" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_add_project.xml" value="0.264" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_change_password.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_detail_project.xml" value="0.264" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_detail_user.xml" value="0.264" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_edit_intern.xml" value="0.4" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_edit_project.xml" value="0.264" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_project.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_project_list.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/activity_splash.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/intern.xml" value="0.2" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/project.xml" value="0.4" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/layout/user.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/menu/menu_home.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/SMST 5/Pemograman Mobile/project_uas_mobile_progress_2/UAS-master/app/src/main/res/menu/menu_project_list.xml" value="0.264" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/drawable/gradbutton.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/font/spirax.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/font/trade_winds.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_add_intern.xml" value="0.22" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_add_user.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_admin.xml" value="0.1796875" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_change_password.xml" value="0.22" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_detail_user.xml" value="0.22" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/activity_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/layout/user.xml" value="0.1796875" />
+        <entry key="..\:/Users/hokis/AndroidStudioProjects/UAS-master/app/src/main/res/menu/menu_home.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

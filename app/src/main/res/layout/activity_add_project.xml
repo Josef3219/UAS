@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradwallpaper"
+    tools:context=".AddProjectActivity">
+
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFADAD"
+        android:title="@string/add_new_project"
+        android:titleTextColor="#7F00FF"
+        app:menu="@menu/menu_home"
+        tools:targetApi="m" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/nama_project" />
+
+        <EditText
+            android:id="@+id/ETNamaProject"
+            style="@style/ETDataIntern"
+            android:inputType="text"
+            android:text="@string/nama"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/pic" />
+        <Spinner
+            android:id="@+id/ETPICProject"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="4dp"/>
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/start_date" />
+        <TextView
+            android:paddingStart="5dp"
+            android:background="@drawable/border"
+            style="@style/ETDataIntern"
+            android:id="@+id/TVStartDate"
+            android:text="@string/select_date"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/end_date" />
+        <TextView
+            style="@style/ETDataIntern"
+            android:id="@+id/TVEndDate"
+            android:text="@string/strip"
+            android:paddingStart="5dp"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="250dp"
+        app:cardCornerRadius="20dp">
+        <Button
+            android:id="@+id/btnAddNewProject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradbutton"
+            android:textColor="@color/white"
+            android:text="@string/add"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

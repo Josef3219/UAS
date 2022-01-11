@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradwallpaper"
+    tools:context=".DetailProjectActivity">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFADAD"
+        android:title="@string/detail_project"
+        android:titleTextColor="#7F00FF"
+        app:menu="@menu/menu_home"
+        tools:targetApi="m" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/nama_project" />
+
+        <TextView
+            android:id="@+id/TVNamaProject"
+            style="@style/ETDataIntern"
+            android:text="@string/nama"/>
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/pic" />
+        <TextView
+            android:id="@+id/TVPICProject"
+            style="@style/ETDataIntern"
+            android:text="@string/pic"/>
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/start_date" />
+        <TextView
+            style="@style/ETDataIntern"
+            android:id="@+id/TVStartDate"
+            android:clickable="false"
+            android:text="@string/select_date"/>
+
+        <TextView
+            style="@style/TVDataIntern"
+            android:text="@string/end_date" />
+        <TextView
+            style="@style/ETDataIntern"
+            android:id="@+id/TVEndDate"
+            android:text="@string/strip"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LLBtnDetailProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="20dp">
+            <Button
+                android:id="@+id/btnEditProject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradbutton"
+                android:textColor="@color/white"
+                android:text="@string/edit"
+                tools:ignore="ButtonStyle" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="20dp">
+            <Button
+                android:id="@+id/btnDeleteProject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradbutton"
+                android:textColor="@color/white"
+                android:text="@string/delete"/>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

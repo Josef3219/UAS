@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_splash"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/gointern"
+        android:textColor="#9029A1"
+        android:shadowColor="#FF2B9E"
+        android:shadowDx="15"
+        android:shadowDy="10"
+        android:shadowRadius="15"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

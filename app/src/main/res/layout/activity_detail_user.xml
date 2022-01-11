@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradwallpaper"
+    tools:context=".DetailUserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:id="@+id/toolbarDetail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFADAD"
+            android:title="@string/profil_nama"
+            android:titleTextColor="#7F00FF"
+            app:menu="@menu/menu_home"
+            tools:targetApi="m" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:orientation="vertical">
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/nama" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataNamaIntern"
+                        android:text="@string/nama"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/umur" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataUmurIntern"
+                        android:text="@string/umur"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/jenis_kelamin" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataJenkelIntern"
+                        android:text="@string/jenis_kelamin"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/email" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataEmailIntern"
+                        android:text="@string/email"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/alamat" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataAlamatIntern"
+                        android:text="@string/alamat"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/no_telpon" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataTelponIntern"
+                        android:text="@string/no_telpon"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/performa" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataPerformaIntern"
+                        android:text="@string/performa"
+                        style="@style/ETDataIntern"/>
+
+                    <TextView
+                        style="@style/TVDataIntern"
+                        android:text="@string/project" />
+                    <View
+                        style="@style/HorizontalLine"
+                        android:background="?android:attr/listDivider"/>
+                    <TextView
+                        android:id="@+id/TVDataProjectIntern"
+                        android:text="@string/profil_nama"
+                        style="@style/ETDataIntern"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/CVBtnEdit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="20dp">
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradbutton"
+                android:textColor="@color/white"
+                android:text="@string/edit"
+                tools:ignore="ButtonStyle" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/CVBtnDelete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="20dp">
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradbutton"
+                android:textColor="@color/white"
+                android:text="@string/delete"
+                tools:ignore="ButtonStyle" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

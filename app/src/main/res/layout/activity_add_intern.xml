@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradwallpaper"
+    tools:context=".AddInternActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFADAD"
+            android:title="@string/add_new_intern"
+            android:titleTextColor="#7F00FF"
+            app:menu="@menu/menu_home"
+            tools:targetApi="m" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/nama" />
+
+                <EditText
+                    android:id="@+id/ETNamaIntern"
+                    style="@style/ETDataIntern"
+                    android:hint="@string/nama"
+                    android:inputType="text"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor" />
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/umur" />
+
+                <EditText
+                    android:id="@+id/ETUmurIntern"
+                    style="@style/ETDataIntern"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:hint="Umur"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor" />
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/jenis_kelamin" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroupGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/RadBtnLaki"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:checked="true"
+                        android:text="@string/laki_laki" />
+
+                    <RadioButton
+                        android:id="@+id/RadBtnPerempuan"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/perempuan" />
+                </RadioGroup>
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/email" />
+
+                <EditText
+                    android:id="@+id/ETEmailIntern"
+                    style="@style/ETDataIntern"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor" />
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/alamat" />
+
+                <EditText
+                    android:id="@+id/ETAlamatIntern"
+                    style="@style/ETDataIntern"
+                    android:hint="Alamat"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"
+                    android:inputType="text" />
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/no_telpon" />
+
+                <EditText
+                    android:id="@+id/ETTelponIntern"
+                    style="@style/ETDataIntern"
+                    android:inputType="number"
+                    android:hint="No.telp"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no" />
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="Performa" />
+
+                <Spinner
+                    android:id="@+id/ETPerformaIntern"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:padding="4dp"/>
+
+                <TextView
+                    style="@style/TVDataIntern"
+                    android:text="@string/project" />
+
+                <EditText
+                    android:id="@+id/ETProjectIntern"
+                    style="@style/ETDataIntern"
+                    android:editable="false"
+                    android:text="@string/strip"
+                    tools:ignore="Deprecated,LabelFor,TextFields"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp">
+        <Button
+            android:id="@+id/btnClearNewIntern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:background="@drawable/gradbutton"
+            android:textColor="@color/white"
+            tools:ignore="ButtonStyle" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="20dp">
+        <Button
+            android:id="@+id/btnAddNewIntern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradbutton"
+            android:textColor="@color/white"
+            android:text="@string/add"
+            tools:ignore="ButtonStyle" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</LinearLayout>

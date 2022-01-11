@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ABB6FF"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#ABB6FF">
+
+        <TextView
+            android:id="@+id/TVNamaProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_project"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#D6B9FF"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/TVPICProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pic"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="#E9CEFD"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
